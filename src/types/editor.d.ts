@@ -1,0 +1,1 @@
+export type ToolType = "shapeBox" | "shapeLine" | "shapeCircle" | "select"
