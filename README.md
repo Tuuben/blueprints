@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+# Inifinity canvas in a weekend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Purpose of this project was to learn more about html canvas and learning a bit more about how potentially drawing tools like Figma and Miro, and Exalidraw work under the hood.
 
-Currently, two official plugins are available:
+## Infinity canvas + zooming
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://github.com/user-attachments/assets/3dced020-73a2-4f5d-b5a3-6c46a89f4d31
 
-## Expanding the ESLint configuration
+## Draw squares & edit dimensions
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+https://github.com/user-attachments/assets/cc7727b3-b90c-4425-bdb2-589b03d31ef7
 
-- Configure the top-level `parserOptions` property like this:
+## Undo history
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+https://github.com/user-attachments/assets/dc3daba7-63a0-4a01-bbd6-a88a24352fd9
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
